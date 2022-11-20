@@ -26,8 +26,8 @@ class LoadDatabase {
 
     	//long id, @NotBlank @Size(max = 100) String name, String descriptio
     	
-   product.save(new Product(1L, "Porta copo", "Porta copo de madeira"));
-   product.save(new Product(2L, "Prato", "Redonco blindex"));
+    	/*product.save(new Product(1L, "Porta copo", "Porta copo de madeira"));
+		product.save(new Product(2L, "Prato", "Redonco blindex"));*/
     	
      /* groceryItemRepo.save(new GroceryItem("Whole Wheat Biscuit", "Whole Wheat Biscuit", 5, "snacks"));
       groceryItemRepo.save(new GroceryItem("Kodo Millet", "XYZ Kodo Millet healthy", 2, "millets"));
